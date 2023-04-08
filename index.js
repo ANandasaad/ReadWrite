@@ -9,8 +9,4 @@ const fs= require("fs");
 
 
 
- const posix = require('posix');
 
-const systemInfo = posix.uname();
-
-console.log(systemInfo);
